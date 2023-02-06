@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.app {
+	background-color: #282c34;
+	bottom: 0;
+	color: #fff;
+	display: flex;
+	font-family: "Inter", sans-serif;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+
+.side-menu {
+	background-color: #202123;
+	padding: 10px;
+	width: 240px;
+}
+
+.side-menu-button {
+	align-items: center;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 12px;
+	transition: all 0.25s ease;
+}
+
+.side-menu-button:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.side-menu-button span {
+	padding: 0px 5px 0px 10px;
+}
+
+.chatbox {
+	background-color: #343541;
+	flex: 1;
+	position: relative;
+}
+
+.chat-log {
+	text-align: left;
+}
+
+.chat-message {
+	text-align: left;
+}
+
+.chat-message.bot {
+	background-color: #444654;
+}
+
+.chat-message.usr {
+	background-color: #343541;
+}
+
+.chat-message-body {
+	align-items: center;
+	border-radius: 5px;
+	display: flex;
+	justify-content: start;
+	margin: 0px auto;
+	padding: 12px 24px;
+	width: 50%;
+}
+
+.avatar {
+	align-items: center;
+	background-color: #000;
+	border-radius: 50%;
+	color: #fff;
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	margin: 0px 20px;
+	width: 40px;
+}
+
+.avatar.bot {
+	background-color: #0da37f;
+}
+
+.avatar.usr {
+	background-color: #2196F3;
+}
+
+.message {
+	display: flex;
+	flex-direction: row;
+}
+
+.chat-input-box {
+	bottom: 0;
+	left: 0;
+	padding: 24px;
+	right: 0;
+	position: absolute;
+}
+
+.chat-input {
+	background-color: #40414f;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0, 0, 8px, 0 rgba(0, 0, 0, 0.25);
+	color: #fff;
+	font-size: 1.25em;
+	resize: none;
+	outline: none;
+	overflow: hidden;
+	padding: 12px;
+	width: 50%;
+}
